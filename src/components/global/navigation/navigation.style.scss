@@ -1,0 +1,72 @@
+
+.navigationsStyle {
+    background-color: white;
+    width:100%;
+    position: fixed;
+    z-index: 100;
+}
+
+
+.navigationsStyle .navigationAllignPosition {
+    width:55%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+
+// Logo
+.navigationsStyle .logoHolder{
+    width:55%;
+    margin:20px 0;
+}
+
+.navigationsStyle .logoHolder a {
+    width:60%;
+    align-items: center;
+    color:black;
+    text-decoration: none;
+}
+
+.navigationsStyle .logoHolder img {
+    display: block;
+    width:50px;
+}
+
+.navigationsStyle .logoHolder h1 { 
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+// Navigation
+.navigationsStyle .navigationsHolder{
+    width:45%;
+
+}
+
+.navigationsStyle .navigationsHolder nav {}
+
+.navigationsStyle .navigationsHolder nav ul {
+
+}
+
+.navigationsStyle .navigationsHolder nav ul li{
+    list-style: none;
+    text-align: center;
+    padding-left:20px;
+ 
+}
+
+.navigationsStyle .navigationsHolder nav ul li a{
+    text-decoration: none;
+    color:black;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+//  -Kommer vi til når vi har flere components at teste med-
+// .navigationsStyle .navigationsHolder nav ul li a.active{
+//     text-decoration: none;
+//     color:red;
+//     font-family: 'Oswald', sans-serif;
+// }

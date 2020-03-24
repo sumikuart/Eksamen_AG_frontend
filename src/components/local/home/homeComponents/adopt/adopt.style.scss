@@ -1,0 +1,28 @@
+.adoptStyle {
+    width:100%;
+    background-image: url('../../../../../assets/adopt/adopt.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center -420px;
+
+    min-height: 380px;
+
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.adoptStyle .adoptContent {
+    width:55%;
+    margin:0 auto;
+    color:white;
+}
+
+.adoptStyle .adoptContent .adoptDataTitle{
+    font-size: 56px;
+    padding-top: 100px;
+
+}
+
+.adoptStyle .adoptContent .adoptDataContent{
+    font-size: 24px;
+}

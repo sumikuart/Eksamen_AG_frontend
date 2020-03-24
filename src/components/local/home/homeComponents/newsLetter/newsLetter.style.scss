@@ -1,0 +1,84 @@
+.newsLetterStyle {
+    font-family: 'Oswald', sans-serif;
+    background-color: #f7f0e6;
+
+}
+
+
+
+.newsLetterStyle .newsLetterContent{
+    width: 55%;
+    margin: 0 auto;
+    font-family: 'Oswald', sans-serif;
+
+    position: relative;
+
+    min-height: 250px;
+
+
+}
+
+
+.newsLetterStyle .newsLetterContent .newsLetterHeadling {
+    padding-top:30px;
+    font-size: 32px;
+    color:#a50000;
+}
+
+.newsLetterStyle .newsLetterContent .newsLetterMainContent {
+    padding:20px 0;
+    justify-content: space-between;
+
+}
+.newsLetterStyle .newsLetterContent .newsLetterMainContent .newsLetterTekst {
+    color:black;
+    font-size: 18px;
+    width:50%;
+}
+.newsLetterStyle .newsLetterContent .newsLetterMainContent .newsLetterForm {
+    width:50%;
+}
+
+.newsLetterStyle .newsLetterContent .newsLetterMainContent .newsLetterForm form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsLetterStyle .newsLetterContent .newsLetterMainContent .newsLetterForm form input{
+    display: block;
+    padding:10px;
+    width:45%;
+    
+}
+
+.newsLetterStyle .newsLetterContent .newsLetterSubmitButton {
+    background-color: #007bff;
+    color:white;
+    width:100px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.5s;
+
+    position: absolute;
+    right:0px;
+    bottom:50px;
+
+
+    cursor: pointer;
+    
+
+}
+
+.newsLetterStyle .newsLetterContent .newsLetterSubmitButton:hover{
+    background-color: #094586;
+}
+
+.newsLetterStyle .newsLetterContent .newsLetterSubmitButton p{
+    padding:10px;
+}
+
+.newsLetterStyle .newsLetterContent .newsLetterErrorHolder{
+    color:#a50000;
+    font-size: 24px;
+}

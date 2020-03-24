@@ -1,0 +1,73 @@
+.friviligStyle{
+    background-color: #f7f0e6;
+    width:100%;
+        
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 30px;
+}
+
+.friviligStyle .friviligContent {
+    width: 55%;
+    margin: 0 auto; 
+}
+
+.friviligStyle .friviligContent .friviligHeadline{
+    color:#a50000;
+    font-size: 28px;
+    font-weight: bolder;
+    padding: 20px 0;
+
+}
+
+.friviligStyle .friviligContent .frivilligHolder {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+// gør klar til at mappe de frivillige ting ud
+
+.friviligStyle .friviligContent .frivilligHolder .topFrivilligMapper {
+    width: 32%;
+
+}
+.friviligStyle .friviligContent .frivilligHolder .frivilligCard {
+    border: 1px solid #e1e0db;
+    background-color: #ffffff;
+        height:700px;
+}
+
+.friviligStyle .friviligContent .frivilligHolder .frivilligCard .titleholder {
+    background-color: #f7f7f7;
+}
+
+.friviligStyle .friviligContent .frivilligHolder .frivilligCard .titleholder p {
+    padding:10px;
+    font-weight: bolder;
+}
+
+.friviligStyle .friviligContent .frivilligHolder .frivilligCard .contentHolder {
+
+
+}
+
+.friviligStyle .friviligContent .frivilligHolder .frivilligCard .contentHolder img {
+    width:90%;
+    margin:20px;
+}
+
+
+.friviligStyle .friviligContent .frivilligHolder .frivilligCard .contentHolder .contentHolderText {
+    width:100%;
+    padding:20px;
+}
+
+.friviligStyle .friviligContent .frivilligHolder .ekstarHolder {
+    background-color: #f7f7f7;
+    width:100%;
+    min-height: 50px;
+}
+
+.friviligStyle .friviligContent .frivilligHolder .ekstarHolder p{
+    padding:20px;
+    font-style: italic;
+}

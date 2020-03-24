@@ -1,0 +1,30 @@
+.helpStyle{
+
+    min-height: 400px;
+
+    background-image: url("../../../../../assets/help/save.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center -530px;
+
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.helpStyle .helpContentDiv {
+    width:55%;
+    margin:0 auto;
+
+    color:white;
+}
+
+
+.helpStyle .helpContentDiv .helpHeadline{
+    font-size: 54px;
+    padding-top:70px;
+}
+
+.helpStyle .helpContentDiv .helpSmalltekst{
+    font-size: 21px;
+    padding-top:20px;
+}

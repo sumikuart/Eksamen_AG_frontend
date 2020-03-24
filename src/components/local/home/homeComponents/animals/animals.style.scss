@@ -1,0 +1,82 @@
+.animalsStyle{
+    width:55%;
+    margin: 0 auto;
+    font-family: 'Oswald', sans-serif;
+}
+
+.animalsStyle .animalsMainText {
+    padding: 30px 0;
+}
+
+.animalsStyle .animalsMainText .animalsTitle{
+    color:#a50000;
+    font-size: 42px;
+}
+
+.animalsStyle .animalsMainText .animalCounter{
+    font-size: 24px;
+}
+
+.animalsStyle .animalMapperContainer {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+// Mappnings div
+
+.animalsStyle .animalMapperContainer .animalCard {
+    width:48%;
+    border: 1px solid black;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.animalsStyle .animalMapperContainer a {
+    color:black;
+    text-decoration: none;
+}
+
+.animalsStyle .animalMapperContainer .animalCard:hover{
+    -webkit-box-shadow: 0px 0px 45px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 45px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 45px -1px rgba(0,0,0,0.75);
+}
+
+.animalsStyle .animalMapperContainer .animalCard .animalImgHolder{
+    width:35%;
+    height: 230px;
+    overflow: hidden;
+}
+
+.animalsStyle .animalMapperContainer .animalCard .animalImgHolder img{
+   display: block;
+   height:100%;
+   margin-left:-100px; 
+}
+
+.animalsStyle .animalMapperContainer .animalCard .animalTekstHolder{
+    width:65%;
+}
+
+.animalsStyle .animalMapperContainer .animalCard .animalTekstHolder .animalNameHolder {
+    font-size: 26px;
+    padding: 10px 30px;
+    
+}
+
+.animalsStyle .animalMapperContainer .animalCard .animalTekstHolder .animalContentLimiter {
+    max-height: 80px;
+    overflow: hidden;
+}
+
+.animalsStyle .animalMapperContainer .animalCard .animalTekstHolder .animalContentLimiter .animalInfoHolder {
+    padding: 0 30px;
+    font-size: 18px;
+
+}
+
+.animalsStyle .animalMapperContainer .animalCard .animalTekstHolder .animaltimeHolder {
+    padding: 10px 30px;
+    color: #8d82a4;
+}

@@ -1,0 +1,56 @@
+
+.footerStyle {
+    width: 100%; 
+    background-color: #f7f0e6;
+    min-height: 150px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.footerStyle  .footerCenterContent {
+    width:55%;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+// Kontakt
+.footerStyle  .footerCenterContent .footerKontaktInfo {
+    width:70%;
+}
+
+.footerStyle  .footerCenterContent .footerKontaktInfo p:nth-of-type(1){
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+// Partner
+.footerStyle  .footerCenterContent .footerPartnerInfo {
+    font-weight: bolder;
+    width:30%;
+    
+}
+
+.footerStyle  .footerCenterContent .footerPartnerInfo p{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.footerStyle  .footerCenterContent .footerPartnerInfo ul {}
+
+.footerStyle  .footerCenterContent .footerPartnerInfo ul li {
+    list-style: none;
+}
+
+
+.footerStyle  .footerCenterContent .footerPartnerInfo ul li a {
+    text-decoration: none;
+}
+
+// Bottom tekst
+
+
+.footerStyle  .copyrightText {
+    text-align: center;
+    padding-bottom: 20px;
+}

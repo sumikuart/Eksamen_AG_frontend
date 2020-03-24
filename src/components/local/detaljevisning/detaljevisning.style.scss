@@ -1,0 +1,61 @@
+.detaljeStyle{
+    padding-top:100px;
+    width:55%;
+    margin: 0 auto;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.detaljeStyle .detaljeHeadline{
+    padding: 30px 0;
+    font-size: 52px;
+    color: #a50000;
+
+}
+
+.detaljeStyle .detaljeMainContent{
+    justify-content: space-between;
+
+}
+
+.detaljeStyle .detaljeMainContent .detaljeImgHolder{
+    width:40%;
+}
+
+.detaljeStyle .detaljeMainContent .detaljeImgHolder img {
+    display: block;
+    width:100%;
+}
+
+.detaljeStyle .detaljeMainContent .detaljeTekstHolder {
+    width:45%;
+}
+
+.detaljeStyle .detaljeMainContent .detaljeTekstHolder .detaljeHardData{
+    border: 2px solid #afafaf;
+    border-radius: 10px;
+    width:100%;
+    background-color: #f7f0e6;
+}
+
+.detaljeStyle .detaljeMainContent .detaljeTekstHolder .detaljeHardData p{
+    border-bottom: 2px solid #afafaf;
+    font-size: 28px;
+    padding: 10px;
+}
+.detaljeStyle .detaljeMainContent .detaljeTekstHolder .detaljeHardData ul {
+    padding:30px;
+    font-size: 18px;
+}
+
+.detaljeStyle .detaljerContentHolder {
+    padding: 30px 0;
+}
+
+.detaljeStyle .detaljerContentHolder .detaljerSubHeadline {
+    font-size: 48px;
+}
+
+.detaljeStyle .detaljerContentHolder .detaljerSubContent{
+    font-size: 24px;
+}
