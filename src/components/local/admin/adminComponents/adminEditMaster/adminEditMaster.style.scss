@@ -1,0 +1,45 @@
+.editMasterStyle {
+    width:55%;
+    margin: 0 auto;
+    font-family: 'Oswald', sans-serif;
+}
+
+.editMasterStyle .editMasterHolder{
+    width:100%;
+    border: 2px solid black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 30px;
+    background-color: #bbb6b0;
+}
+
+.editMasterStyle .editMasterHolder .editSelector {
+    justify-content: space-between;
+    text-align: center;
+}
+
+.editMasterStyle .editMasterHolder .editSelector .editSelectOption {
+    width:25%;
+    transition: 0.5s;
+    background-color: #bbb6b0;
+    margin-top:20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    cursor: pointer;
+    border-bottom: 2px solid black;
+    border: 2px  solid black;
+ 
+}
+
+.editMasterStyle .editMasterHolder .editSelector .editSelectOption:hover {
+    background-color: #f7f0e6;
+}
+
+.editMasterStyle .editMasterHolder .editSelector .editSelectOption.selected{
+    border: 2px  solid black;
+    border-bottom:none;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #f7f0e6;
+
+}

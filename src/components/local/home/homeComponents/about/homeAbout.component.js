@@ -44,12 +44,12 @@ const HomeAbout = () => {
                     </div>
 
                     <div className="rowTwo">
-                        <p className="aboutHeadline">{aboutContent[0].title_2}</p>
+                        <div  className="aboutHeadline" dangerouslySetInnerHTML={{__html: aboutContent[0].title_2}} />
                         <div dangerouslySetInnerHTML={{ __html: aboutContent[0].content_2 }} />
                     </div>
 
                     <div className="rowThree">
-                        <p className="aboutHeadline">{aboutContent[0].title_3}</p>
+                    <div  className="aboutHeadline" dangerouslySetInnerHTML={{__html: aboutContent[0].title_3}} />
                         <div dangerouslySetInnerHTML={{ __html: aboutContent[0].content_3 }} />
                     </div>
                     

@@ -1,6 +1,6 @@
 
 // Main:
-import React, { useContext } from 'react';
+import React, { } from 'react';
 import { NavLink } from "react-router-dom";
 
 //Styles
@@ -12,6 +12,7 @@ import HelpComponentent from './homeComponents/help/help.component';
 import NewsLetterComponentent from './homeComponents/newsLetter/newsLetter.component';
 import AdoptComponent from './homeComponents/adopt/adopt.component';
 import AnimalsComponent from './homeComponents/animals/animals.component';
+import { Component } from 'react';
 
 //Components
 
@@ -19,6 +20,8 @@ import AnimalsComponent from './homeComponents/animals/animals.component';
 const MainHome = () => {
 
     return (
+
+        
         <div className='mainHomeStyle'>
             
      

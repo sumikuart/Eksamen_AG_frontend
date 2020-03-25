@@ -1,6 +1,6 @@
 
 // Main:
-import React from 'react';
+import React, {} from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import { NavLink, Link, useHistory} from "react-router-dom";
 
@@ -14,6 +14,7 @@ import logo from '../../../assets/logo.png'
 const NavigationsBar = () => {
 
     let history = useHistory()
+
 
     const navHandler = () => {
 
@@ -31,6 +32,14 @@ const NavigationsBar = () => {
                 </nav>
         )
 
+        } else if(history.location.pathname.includes("/admin")){
+            return(
+                <nav>
+                        <ul className="flexer">
+                            <li><NavLink to="/" >Til Animalcare Group</NavLink></li>
+                        </ul>
+                </nav>
+        )
         } else {
 
             return(

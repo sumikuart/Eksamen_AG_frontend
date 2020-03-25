@@ -1,0 +1,65 @@
+.adminLoginStyle{
+    width:55%;
+    margin:  0 auto;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.adminLoginStyle .loginHolder {
+    width:40%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #f7f0e6;
+    margin-top:50px;
+    min-height: 450px;
+}
+
+
+.adminLoginStyle .loginHolder .loginHeadline {
+    text-align: center;
+    font-size: 28px;
+    padding: 20px 0;
+}
+
+.adminLoginStyle .loginHolder form{}
+.adminLoginStyle .loginHolder form input{
+    display: block;
+    width:90%;
+    margin: 20px auto;
+    padding:10px;
+    font-size: 18px;
+    border-radius: 10px;
+    
+}
+
+.adminLoginStyle .loginHolder .loginBottonHolder {
+    justify-content: space-between;
+    padding:40px 0;
+    width:90%;
+    margin: 0 auto;
+}
+
+
+
+.adminLoginStyle .loginHolder .loginBottonHolder .adminLoginButton {
+    width:45%;
+    padding:20px;
+    background-color: rgb(194, 194, 194);
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 28px;
+    transition: 0.2s;
+}
+
+.adminLoginStyle .loginHolder .loginBottonHolder .adminLoginButton:Hover {
+    background-color: rgb(151, 151, 151);
+    color:white;
+}
+
+.adminLoginStyle .loginHolder .handleErrorAdminLogin {
+    color: #a50000;
+    width:90%;
+    font-size: 24px;
+    margin: 0 auto;
+}
