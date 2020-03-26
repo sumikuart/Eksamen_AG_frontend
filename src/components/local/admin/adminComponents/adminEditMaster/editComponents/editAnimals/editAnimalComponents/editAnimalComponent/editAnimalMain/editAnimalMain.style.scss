@@ -1,0 +1,68 @@
+.editAnimalMainStyle {
+    margin-left:20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: 'Oswald', sans-serif;
+    width:80%;
+    background-color: rgb(235, 235, 235);
+    overflow: hidden;
+}
+
+
+.noMainAnimalSelectedYet {
+    margin-left:20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: 'Oswald', sans-serif;
+    width:80%;
+    background-color: rgb(200, 200, 200);
+    text-align: center;
+    font-size: 42px;
+}
+
+.editAnimalMainStyle img {
+    display: block;
+    width:100%;
+    margin-bottom: 20px;
+}
+
+.editAnimalMainStyle .editAnimalFinisher,
+.editAnimalMainStyle .imageChangerButton {
+    padding:10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+    background-color: white;
+    text-align: center;
+}
+.editAnimalMainStyle .editAnimalFinisher:hover,
+.editAnimalMainStyle .imageChangerButton:hover {
+    background-color: rgb(195, 195, 195);
+}
+
+.editAnimalMainStyle form {
+    width:80%;
+    margin-left:20px;
+    
+    padding: 30px  0;
+}
+
+.editAnimalMainStyle form label{
+    display: block;
+    font-size: 24px;
+}
+
+
+.editAnimalMainStyle form textarea,
+.editAnimalMainStyle form input{
+    padding:10px;
+    width:100%;
+    background-color: white;
+}
+
+.editAnimalMainStyle form textarea {
+    min-height: 150px;
+}
+
+

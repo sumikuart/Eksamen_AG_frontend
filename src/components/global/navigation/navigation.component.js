@@ -15,6 +15,18 @@ const NavigationsBar = () => {
 
     let history = useHistory()
 
+    const loginAdd = () => {
+
+    if( localStorage.getItem('login_Level') == "admin") {
+        return (
+              <li><NavLink to="/admin">Admin Modul</NavLink></li>
+        )
+    } else {
+        return(
+            <li></li>
+        )
+    }
+    }
 
     const navHandler = () => {
 
@@ -28,6 +40,7 @@ const NavigationsBar = () => {
                             <li><Nav.Link href="#volunteers">Blive Frivillig</Nav.Link></li>
                             <li><Nav.Link href="#help">Dyr i nød?</Nav.Link></li>
                             <li><Nav.Link href="#animals">Adopter et dyr</Nav.Link></li>
+                            {loginAdd()}
                         </ul>
                 </nav>
         )
@@ -50,6 +63,7 @@ const NavigationsBar = () => {
                             <li><NavLink to="/">Blive Frivillig</NavLink></li>
                             <li><NavLink to="/">Dyr i nød?</NavLink></li>
                             <li><NavLink to="/">Adopter et dyr</NavLink></li>
+                            {loginAdd()}
                         </ul>
                 </nav>
         )

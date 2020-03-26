@@ -12,8 +12,8 @@ const EditAdoptComponent = () => {
     return (
         <div className='editAdoptStyle'>
         
-            <p>Allooo Fra Edit Adopt</p>
-
+            <p>Adopt er under Construktion</p>
+            <p>forvent samme opbygning som About Modulet</p>
         </div>
     )
 

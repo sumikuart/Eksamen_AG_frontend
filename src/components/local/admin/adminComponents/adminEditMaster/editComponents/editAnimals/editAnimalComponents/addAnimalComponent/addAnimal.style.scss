@@ -1,0 +1,48 @@
+.addAnimalStyle {
+
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: 'Oswald', sans-serif;
+    width:80%;
+    background-color: white;
+    overflow: hidden;
+}
+
+.addAnimalStyle form {
+    margin:10px;
+}
+
+.addAnimalStyle form label {
+    display: block;
+    font-size: 24px;
+}
+
+.addAnimalStyle form textarea {
+    min-height: 150px;
+}
+.addAnimalStyle form textarea,
+.addAnimalStyle form input {
+    display: block;
+    width:90%;
+    padding:10px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.addAnimalStyle .addAnimalButton {
+    text-align: center;
+    width:30%;
+    margin:  0 auto;
+    border: 2px solid black;
+    padding:10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+    background-color:#E0E0E0;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.addAnimalStyle .addAnimalButton:hover{
+    background-color:rgb(155, 155, 155);
+}

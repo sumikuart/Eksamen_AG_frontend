@@ -12,6 +12,7 @@ import FooterComponent from './components/global/footer/footer.component';
 import MainHome from './components/local/home/mainHome.component';
 import DetaljeComponent from './components/local/detaljevisning/detaljevisning.component';
 import AdminComponent from './components/local/admin/admin.component';
+import VisAlleComponent from './components/local/visAlle/visAll.component';
 
 
 
@@ -27,13 +28,15 @@ function App() {
 
       <main>
 
-      <switch>
+     
       <Route exact path="/" component={MainHome} />
       <Route exact path="/animal/:id" component={DetaljeComponent} />
 
+      <Route path="/animalList" component={VisAlleComponent} />
+
       <Route path="/admin" component={AdminComponent} />
 
-      </switch>
+      
       </main>
 
       <footer>

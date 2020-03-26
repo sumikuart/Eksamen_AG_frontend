@@ -12,7 +12,8 @@ const EditVolunteersComponent = () => {
     return (
         <div className='editVolunteersStyle'>
         
-            <p>Allooo Fra Edit Volunteers</p>
+            <p>Volunteers er under Construktion</p>
+            <p>forvent samme opbygning som About Modulet</p>
 
         </div>
     )

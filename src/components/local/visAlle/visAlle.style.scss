@@ -1,0 +1,113 @@
+.visAlleStyle {
+    padding-top: 100px;
+    width:100%;
+        background-color: #f7f0e6;
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 30px;
+    min-height: 80vh;
+}
+
+.visAlleStyle .visAlleContent {
+    width:55%;
+    margin: 0 auto;
+}
+
+.visAlleStyle  .alleDyrHeadline {
+    font-size: 38px;
+    color:#a50000;
+    padding:  30px 0;
+}
+
+// Søg style:
+
+.visAlleStyle .visAlleContent .searchCompleteHeadline{
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.visAlleStyle .visAlleContent .searchDiv {
+    font-size: 24px;
+    padding-bottom:30px;
+    width:50%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.visAlleStyle .visAlleContent .searchDiv form{
+    width:80%;
+}
+
+.visAlleStyle .visAlleContent .searchDiv form input{
+    display: block;
+    width:100%;
+    font-size: 24px;
+    padding:5px;
+    border-radius: 20px;
+}
+
+.visAlleStyle .visAlleContent .searchDiv .searchFunctionsKnap{
+    padding:10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 20%;
+    text-align: center;
+}
+//Card style:
+.visAlleStyle .visAlleContent .completeListHolder .animalCard {
+    width:100%;
+    border: 1px solid black;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: white;
+}
+
+.visAlleStyle .visAlleContent .completeListHolder a {
+    color:black;
+    text-decoration: none;
+}
+
+.visAlleStyle .visAlleContent .completeListHolder .animalCard:hover{
+    -webkit-box-shadow: 0px 0px 45px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 45px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 45px -1px rgba(0,0,0,0.75);
+}
+
+.visAlleStyle .visAlleContent .completeListHolder .animalCard .animalImgHolder{
+    width:35%;
+    height: 230px;
+    overflow: hidden;
+}
+
+.visAlleStyle  .visAlleContent .completeListHolder .animalCard .animalImgHolder img{
+   display: block;
+   height:100%;
+   margin-left:-100px; 
+}
+
+.visAlleStyle .visAlleContent .completeListHolder .animalCard .animalTekstHolder{
+    width:65%;
+}
+
+.visAlleStyle .visAlleContent .completeListHolder .animalCard .animalTekstHolder .animalNameHolder {
+    font-size: 26px;
+    padding: 10px 30px;
+    
+}
+
+.visAlleStyle .visAlleContent .completeListHolder .animalCard .animalTekstHolder .animalContentLimiter {
+    max-height: 80px;
+    overflow: hidden;
+}
+
+.visAlleStyle .visAlleContent .completeListHolder .animalCard .animalTekstHolder .animalContentLimiter .animalInfoHolder {
+    padding: 0 30px;
+    font-size: 18px;
+
+}
+
+.visAlleStyle .visAlleContent .completeListHolder .animalCard .animalTekstHolder .animaltimeHolder {
+    padding: 10px 30px;
+    color: #8d82a4;
+}
+

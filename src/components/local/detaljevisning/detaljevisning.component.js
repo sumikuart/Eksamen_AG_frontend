@@ -6,6 +6,7 @@ import { NavLink } from "react-router-dom";
 import './detaljevisning.style.scss'
 
 
+
 const DetaljeComponent = (props) => {
 
     const [chosenAnimal, setChosenAnimal] = useState('')
@@ -39,7 +40,7 @@ const DetaljeComponent = (props) => {
                 <div className="flexer detaljeMainContent">
 
                     <div className="detaljeImgHolder">
-                        <img src={require("../../../assets/animals/" + chosenAnimal[0].image)} alt=""/>
+                        <img src={require("../../../../../backend/assets/animals/" + chosenAnimal[0].image)} alt=""/>
                     </div>
 
                     <div className="detaljeTekstHolder">
@@ -49,7 +50,7 @@ const DetaljeComponent = (props) => {
                                 <li>{"Tid hos os: Ankom for " +chosenAnimal[0].daysInCare  + " Dage siden" }</li>
                                 <li>{"Alder: " + chosenAnimal[0].age}</li>
                                 <li>{"Køn: " +chosenAnimal[0].sex}</li>
-                                <li>{"yderlige Detaljer: " +chosenAnimal[0].details}</li>
+                                <li>{"Note: " +chosenAnimal[0].details}</li>
                             </ul>
                         </div>
                     </div>
@@ -57,7 +58,7 @@ const DetaljeComponent = (props) => {
                 </div>
 
                 <div className="detaljerContentHolder">
-                    <p className="detaljerSubHeadline">Yderlige Detaljer:</p>
+                    <p className="detaljerSubHeadline">Detaljer:</p>
                     <p  className="detaljerSubContent" >{chosenAnimal[0].content}</p>
                 </div>
             </div>

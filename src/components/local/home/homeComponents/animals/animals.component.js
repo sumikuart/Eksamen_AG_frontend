@@ -11,7 +11,7 @@ const AnimalPoster = (props) =>{
   
         <NavLink to={'/animal/' + props.currentAnimal._id} className='animalCard flexer'>
             <div className='animalImgHolder'>
-                <img src={require("../../../../../assets/animals/" + props.currentAnimal.image)} alt=""/>
+                <img src={require("../../../../../../../backend/assets/animals/" + props.currentAnimal.image)} alt=""/>
             </div>
             <div className='animalTekstHolder'>
                 <p className="animalNameHolder">{props.currentAnimal.title}</p>
@@ -71,7 +71,10 @@ if( animalLoader == 'Loading'){
 
             <div className="animalsMainText">
                 <p className="animalsTitle">Dyr hos os</p>
+                <div className="flexer">
                 <p className="animalCounter">{animalsList.length +" dyr"}</p>
+                <NavLink to="/animalList" className="animalLink">Vis alle dyr</NavLink>
+                </div>
             </div>
 
             <div className="animalMapperContainer flexer">
